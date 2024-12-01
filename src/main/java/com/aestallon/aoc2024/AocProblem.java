@@ -39,4 +39,9 @@ public abstract class AocProblem {
       return Collections.emptyList();
     }
   }
+
+  public abstract long solveA();
+
+  public abstract long solveB();
+
 }
